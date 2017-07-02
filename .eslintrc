@@ -105,6 +105,7 @@
         "indent": [2, 2, {
           "SwitchCase": 1
         }],
+        "arrow-body-style": [2, "as-needed"],
         "arrow-spacing": 2,
         "brace-style": 2,
         "camelcase": 0,
