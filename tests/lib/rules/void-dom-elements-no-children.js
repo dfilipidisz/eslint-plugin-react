@@ -56,10 +56,6 @@ ruleTester.run('void-dom-elements-no-children', rule, {
     {
       code: 'React.createElement("img");'
     }, {
-      code: 'React.createElement();'
-    }, {
-      code: 'document.createElement();'
-    }, {
       code: `
         const props = {};
         React.createElement("img", props);
